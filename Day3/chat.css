@@ -1,0 +1,36 @@
+.left{
+    color: rgb(210, 206, 206);
+    margin: 4px;
+    margin-left: 0;
+    background-color: rgb(63, 129, 136);
+    width: 180px;
+    border-radius: 4px;
+
+    
+}
+.right{
+    color: black;
+    background-color: rgb(102, 51, 153,0.4);
+    margin-left: 300px;
+    width: 180px;
+    border-radius: 4px;
+}
+p{
+    margin-left: 5px;
+}
+input{
+    border: none;
+    border-radius: 4px;
+    margin-left:35px;
+    margin-bottom: 10px;
+    height: 20px;
+}
+button{
+    border: none;
+    background-color: rgb(63, 129, 136);
+    border-radius: 4px;
+    padding: auto;
+    cursor: pointer;
+    padding: 2px 4px;
+    margin-left: 5px;
+}

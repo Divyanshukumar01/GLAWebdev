@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color: aqua;
+}
+.p{
+    text-align: center;
+    color: white;
+}
+.main{
+    background-color: rgba(0, 0, 0, 0.159);
+}
+.box{
+    background-color: green;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 680px;
+    padding: 50px;
+    box-shadow: 2px 2px 10px ;
+    
+}
+
+.buttons{
+    text-align: center;
+    margin-top: 50px;
+}
+.buttons.btn:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+.para{
+    width: 500px;
+    color: white;
+    margin-left: 530px;
+    text-align: center;
+}

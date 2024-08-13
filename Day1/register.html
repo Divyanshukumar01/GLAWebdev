@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <style>
+        .h1{
+            color: rgb(255, 111, 0);
+        }
+        body{
+            text-align: center;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* height: 100vh; */
+        }
+        .box{
+            /* margin-top: 50px; */
+            height: 650px;
+            width: 500px;
+            border: 2px solid orange;
+            border-radius: 10px;
+            background-color: wheat;
+        }
+        .btn{
+            margin-top: 50px;
+            height: 1cm;
+            width: 2cm;
+            border: 2px solid;
+        }
+        .btn:hover{
+            background-color:orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="h1"><h1>Student Register Form</h1></div>
+            
+    <form action="">
+        <label for="FirstName">FirstName:</label>
+        <input type="firstname" id="FirstName" style="width: 5cm;">
+        <br>
+        <br>
+
+        <label for="MiddleName">MiddleName:</label>
+        <input type="middlename" id="MiddleName" style="width: 5cm;">
+        <br>
+        <br>
+
+        <label for="LastName">LastName:</label>
+        <input type="lastname" id="LastName" style="width: 5cm;">
+        <br>
+        <br>
+
+        <label for="Email ID">Email ID:</label>
+        <input type="emailid" id="Email ID" style="width: 5cm;">
+        <br>
+        <br>
+
+        <label for="Password">Password:</label>
+        <input type="password" id="Password" style="width: 5cm;">
+        <br>
+        <br>
+
+        <label for="Confirm Password">Confirm Password:</label>
+        <input type="confirmpassword" id="Confirm Password" style="width: 5cm;">
+        <br>
+        <br>
+
+        <label for="Date of Birth">Date of Birth:</label>
+        <input type="date" id="Date of Birth" style="width: 5cm;">
+        <br>
+        <br>
+
+        <label for="Gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+    
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        <br>
+        <br>
+
+        <label for="Branch">Branch:</label>
+        <select name="Branch">
+            <option value="Reading">Computer Science</option>
+            <option value="Writing">Mechanical</option>
+            <option value="Listen Music">Civil</option>
+            <option value="Watching Movies">Electrical</option>
+            <option value="Other">Electronics</option>
+        </select>
+        <br>
+        <br>
+
+        <label for="Address">Adress:</label>
+        <input type="adress" id="adress" style="width: 5cm;">
+        <br>
+        <br>
+
+        <button class="btn">Submit</button>
+        <button class="btn">Cancel</button>
+        <button class="btn">Reset</button>
+        
+    </form>
+        </div>
+    </div>
+</body>
+</html>
