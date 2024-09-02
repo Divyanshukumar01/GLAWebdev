@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Javascript Arrays</h1>
+    <script>
+        //Map function
+        const fruits= ["Apple", "Banana", "Orange", "Mango"];
+        console.log(fruits);
+        for(let i=0; i< fruits.length; i++){
+            console.log("index:", i, "value:", fruits[i]);
+        }
+        const newArray= fruits.map((fruit, index) => {
+            return `${index + 1}. ${fruit}`;
+        });
+        console.log(" ~newArray ~newArray:", newArray);
+
+
+        //Using filter find even no.:
+        const numbers = [1,2,3,4,5,6,7,8,9,10];
+
+        const evenNumbers = numbers.filter((number) => number %2==0);
+        console.log(" ~evenNumbers ~evenNumbers", evenNumbers);
+
+        //Using emoticons using join:
+        const emoticons =["😄", "😮", "❤️‍🔥"];
+        console.log("🚀 ~emoticons ~using join:", emoticons.join("-"));
+        
+        // Concat emoticons:
+        const moreEmotions =["🐯"];
+        const allEmotions = emoticons.concat(moreEmotions);
+        console.log("🚀 ~concat emotions:",allEmotions);
+
+        //Find method:
+        const array =[10,20,30,40,50];
+        const found = array.find((array) => array>10);
+        console.log("~ element:", found);
+
+        //findindex:
+        const array1 =[10,20,30,40,50];
+        const findindex = array1.findIndex((array1) => array1 === 20);
+        console.log("~ indexofelement:", findindex);
+
+        //lastindex:
+        const array2 =[10,20,30,40,50,20];
+        let lastindex = array2.lastIndexOf(20);
+        console.log("~ lastindexofelement:", lastindex);
+
+        //if-else condn:
+        const x = 0;
+        const y = 0;
+        const z = 0;
+        if( ++x && z++ && z++ || ++z){
+            console.log(x,y,z);
+        }
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+[
+    {
+        "_id": "card1",
+        "title":"Async Await is the worst thing to happen to programming",
+        "description":"i recently saw this meme",
+        "authorname":"Andrew Zuo",
+        "date":"Jun 22",
+        "likes": 2800,
+        "comments": 153,
+        "status": "active"
+    },
+
+    {
+        "_id": "card2",
+        "title":"UX/UI design"
+
+    }
+]

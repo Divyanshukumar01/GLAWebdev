@@ -1,5 +1,5 @@
-const resume={
-    _id: "2215000638",
+{
+    "_id": "2215000638",
     "Name": "Divyanshu",
     "Aboutme": " I am a webdeveloper",
     "D.O.B": "04-02-2004",
@@ -24,6 +24,5 @@ const resume={
             "webdeveloper": "HTML, CSS Javascript,React, Nodejs",
             "Languages": "C, Pyhtyon, Java"
         }
-    ],
-};
-
+    ]
+}
